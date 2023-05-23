@@ -8,7 +8,7 @@ class Asteroid extends MovingObject {
 
 
 constructor(args) {
-    super({pos: args['pos'], vel: Util.randomVec(), color: Asteroid.COLOR, radius: Asteroid.RADIUS})
+    super({pos: args['pos'], vel: Util.randomVec(), color: Asteroid.COLOR, radius: Asteroid.RADIUS, game: args['game']})
 }
 
 
